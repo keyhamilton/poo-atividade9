@@ -30,7 +30,7 @@ abstract class FiguraGeometrica {
 
 let figuras: FiguraGeometrica[] = new Array();
 
-R: A variável figuras é na verdade é uma instância de Array e não de FiguraGeométrica.
+R: A variável figuras é na verdade, uma instância de Array, e não de FiguraGeométrica.
 Para comprovar isso basta investigar o tipo de figuras usando o operador instanceof.
 
 # Nota
