@@ -1,0 +1,32 @@
+@startuml questao4
+abstract class FiguraGeometrica {
+
+    abstract calcularArea(): number;
+
+    abstract calcularPerimetro(): number;
+}
+
+class Quadrado extends FiguraGeometrica {
+    -lado: number;
+
+    +calcularArea(): number; 
+    +calcularPerimetro(): number;
+}
+
+class Retangulo extends FiguraGeometrica {
+    -lado1: number;
+    -lado2: number;
+
+    +calcularArea(): number; 
+    +calcularPerimetro(): number;
+}
+
+class Triangulo extends FiguraGeometrica {
+    -lado1: number;
+    -lado2: number;
+    -lado3: number;
+
+    +calcularArea(): number; 
+    +calcularPerimetro(): number;
+}
+@enduml
