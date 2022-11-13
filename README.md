@@ -20,6 +20,7 @@ que ocorre?
 
     R: Essa classe continua sendo abstrata, pois só passa a ser concreta se implementar os métodos definidos na classe abstrata.
 
+4. Vide os arquivos questao4.ts e questao4.plantuml.
 
 5. Não podemos aplicar o operador new em FiguraGeometrica, mas por que então
 podemos realizar o seguinte código de instanciação:
