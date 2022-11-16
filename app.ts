@@ -38,9 +38,9 @@ let conta1: ContaCorrente = new ContaCorrente('Osvaldo', 100);
 let conta2: ContaCorrente = new ContaCorrente('Lula', 1000);
 let conta3: ContaCorrente = new ContaCorrente('Bolsonaro', 10000);
 let conta4: ContaCorrente = new ContaCorrente('Nicolas', 1000);
-let conta5: SeguroDeVida = new SeguroDeVida('Ralf', 1200);
-let conta6: SeguroDeVida = new SeguroDeVida('Adolf', 1300);
-let conta7: SeguroDeVida = new SeguroDeVida('Gilbert', 1500);
+let conta5: SeguroDeVida = new SeguroDeVida();
+let conta6: SeguroDeVida = new SeguroDeVida();
+let conta7: SeguroDeVida = new SeguroDeVida();
 
 let auditoria: AuditoriaInterna = new AuditoriaInterna();
 auditoria.adicionar(conta1);
