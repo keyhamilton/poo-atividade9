@@ -35,7 +35,7 @@ class ContaCorrente extends Conta implements Tributavel{
     }
 }
 
-class SeguroDeVida extends Conta implements Tributavel {
+class SeguroDeVida implements Tributavel {
     calcularTributos(): number {
         return 50;
     }
